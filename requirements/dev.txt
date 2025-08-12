@@ -16,7 +16,7 @@ boolean-py==5.0
     # via license-expression
 build==1.2.2.post1
     # via pip-tools
-certifi==2025.6.15
+certifi==2025.7.14
     # via requests
 cffi==1.17.1
     # via cryptography
@@ -26,11 +26,11 @@ click==8.1.8
     # via
     #   black
     #   pip-tools
-coverage[toml]==7.9.2
+coverage[toml]==7.10.1
     # via pytest-cov
 cryptography==45.0.5
     # via pip-licenses-cli (pyproject.toml)
-docutils==0.21.2
+docutils==0.22
     # via
     #   pip-licenses-cli (pyproject.toml)
     #   readme-renderer
@@ -64,7 +64,7 @@ jaraco-functools==4.2.1
     # via keyring
 keyring==25.6.0
     # via twine
-license-expression==30.4.3
+license-expression==30.4.4
     # via pip-licenses-cli (pyproject.toml)
 markdown-it-py==3.0.0
     # via rich
@@ -76,13 +76,13 @@ more-itertools==10.7.0
     # via
     #   jaraco-classes
     #   jaraco-functools
-mypy==1.16.1
+mypy==1.17.1
     # via pip-licenses-cli (pyproject.toml)
 mypy-extensions==1.1.0
     # via
     #   black
     #   mypy
-nh3==0.2.21
+nh3==0.3.0
     # via readme-renderer
 packaging==25.0
     # via
@@ -98,7 +98,7 @@ pep8-naming==0.15.1
     # via pip-licenses-cli (pyproject.toml)
 pip-licenses-lib==0.6.0
     # via pip-licenses-cli (pyproject.toml)
-pip-tools==7.4.1
+pip-tools==7.5.0
     # via pip-licenses-cli (pyproject.toml)
 platformdirs==4.3.8
     # via black
@@ -140,7 +140,7 @@ requests-toolbelt==1.0.0
     # via twine
 rfc3986==2.0.0
     # via twine
-rich==14.0.0
+rich==14.1.0
     # via twine
 tomli==2.2.1 ; python_version < "3.11"
     # via
@@ -158,13 +158,13 @@ twine==6.1.0
     # via pip-licenses-cli (pyproject.toml)
 types-colorama==0.4.15.20240311
     # via pip-licenses-cli (pyproject.toml)
-types-docutils==0.21.0.20250708
+types-docutils==0.21.0.20250728
     # via
     #   pip-licenses-cli (pyproject.toml)
     #   types-pygments
 types-pexpect==4.9.0.20250516
     # via pip-licenses-cli (pyproject.toml)
-types-pygments==2.19.0.20250516
+types-pygments==2.19.0.20250715
     # via pip-licenses-cli (pyproject.toml)
 typing-extensions==4.14.1
     # via
